@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Applies elements to the header.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header main {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header main ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header main ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,16 +49,16 @@ a {
 p {
     font-size: 16px;
 }
-
+/*This sets the dimensions for the main photo on the page*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); alt: digital marketing meeting;
     background-size: cover;
     background-position: center;
 }
-
+/*Gives the position to the photos in the main articles*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Sets the styling for the aside*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
